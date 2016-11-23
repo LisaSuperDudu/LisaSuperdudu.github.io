@@ -1,0 +1,19 @@
+.section {
+  height: 100vh;
+  background-image: linear-gradient(90deg, #F94C7E 0%, #F02548 50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.intro {
+  h1 {
+    font-size: 4em;
+  }
+  h2 {
+  padding: 0 120px 0 80px;
+  font-weight: 400;
+  }
+}
+
+

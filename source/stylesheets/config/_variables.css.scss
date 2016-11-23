@@ -2,9 +2,9 @@
  * Fonts
  * ------------------------------------- */
 // Google fonts
-@import url("http://fonts.googleapis.com/css?family=Open+Sans:400,300,700|Montserrat:400,700");
-$base-font: "Open Sans", "Helvetica", "sans-serif";
-$header-font: "Montserrat", "sans-serif";
+ @import url('https://fonts.googleapis.com/css?family=Chivo:400,900');
+$base-font: "Chivo", "Helvetica", "sans-serif";
+$header-font: "Chivo", "sans-serif";
 
 // Local fonts (uncomment following lines)
 // @font-face {
@@ -19,14 +19,15 @@ $header-font: "Montserrat", "sans-serif";
 // Font-size and line-height
 $base-size: 16px;
 $base-height: 1.4;
+$headings-font-weight: 900;
 
 /* -------------------------------------
  * Colors
  * ------------------------------------- */
 // Scheme
 $red: #EE5F5B;
-$blue: #469AE0;
-$yellow: #FDB631;
+$blue: #032243;
+$yellow: #FAE16B;
 $orange: #E67E22;
 $green: #32B796;
 $purple: #6452BD;
@@ -37,3 +38,6 @@ $gray-dark:    lighten(#000, 20%);   // #333
 $gray:         lighten(#000, 33.5%); // #555
 $gray-light:   lighten(#000, 46.7%); // #777
 $gray-lighter: lighten(#000, 93.5%); // #eee
+
+// link
+$link-color: $yellow;
