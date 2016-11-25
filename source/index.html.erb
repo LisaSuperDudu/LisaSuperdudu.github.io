@@ -22,20 +22,23 @@ title: Portfolio
 <section class="work">
   <div class="container">
     <div class="row">
+      <div data-sr="enter bottom, move 250px, over 1s, wait 0.3s">
       <div class="col-xs-12 col-sm-7 text-center center-block">
-        <%= image_tag('work_wor.jpg', class: "img-responsive")  %>
+
+          <%= image_tag('work_wor.jpg', class: "img-responsive")  %>
       </div>
+    </div>
       <div class="col-xs-12 col-sm-5">
         <div class="info">
-          <h1>Women on Rails</h1>
-          <h2>un groupe de travail visant à faire progresser les femmes dans l’internet</h2>
+          <h1 data-sr="enter right, move 250px, over 1s">Women on Rails</h1>
+          <h2 data-sr="enter right, move 250px, over 1s, wait 0.3s">un groupe de travail visant à faire progresser les femmes dans l’internet</h2>
           <ul class="list-unstyled text-right">
             <li>identité</li>
             <li>webdesign</li>
             <li>intégration</li>
           </ul>
           <p class="text-right">
-            <a class="link" href="#">Visiter le site</a>
+            <a class="link" target="_blank" href="http://womenonrails.com/">Visiter le site</a>
           </p>
         </div>
       </div>
@@ -57,7 +60,7 @@ title: Portfolio
             <li>développement</li>
           </ul>
           <p class="text-left">
-            <a class="link" href="#">Visiter le site</a>
+            <a class="link" href="http://webibli.fr/">Visiter le site</a>
           </p>
         </div>
       </div>

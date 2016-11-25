@@ -20,3 +20,6 @@ gem 'middleman-deploy', '~> 1.0'
 gem 'jquery-middleman'
 gem 'bootstrap-sass'
 gem 'font-awesome-sass'
+
+gem 'rails-assets-scrollReveal.js', '2.3.2', source: 'https://rails-assets.org'
+
