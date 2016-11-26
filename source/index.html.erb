@@ -1,13 +1,13 @@
 ---
 title: Portfolio
 ---
-<div class="section">
+<div class="section" id="welcome">
   <div class="container">
     <div class="row">
       <div class="col-xs-12 col-sm-8 col-sm-offset-2">
         <div class="intro">
-          <h1>Bonjour,</h1>
-          <h2>je suis Lisa, une Webdesigner & Dev Ruby Junior freelance</h2>
+          <h1 data-sr="enter left, move 250px, over 1s">Bonjour,</h1>
+          <h2 data-sr="enter right, move 250px, over 1s, wait 0.3s">je suis Lisa, une Webdesigner & Dev Ruby Junior freelance</h2>
           <ul class="list-unstyled text-right">
             <li><a class="link" href="#">linkedin</a></li>
             <li><a class="link" href="#">dribbble</a></li>
@@ -23,15 +23,14 @@ title: Portfolio
   <div class="container">
     <div class="row">
       <div data-sr="enter bottom, move 250px, over 1s, wait 0.3s">
-      <div class="col-xs-12 col-sm-7 text-center center-block">
-
+        <div class="col-xs-12 col-sm-7 text-center center-block">
           <%= image_tag('work_wor.jpg', class: "img-responsive")  %>
+        </div>
       </div>
-    </div>
       <div class="col-xs-12 col-sm-5">
         <div class="info">
-          <h1 data-sr="enter right, move 250px, over 1s">Women on Rails</h1>
-          <h2 data-sr="enter right, move 250px, over 1s, wait 0.3s">un groupe de travail visant à faire progresser les femmes dans l’internet</h2>
+          <h1 data-sr="enter left, move 250px, over 1s">Women on Rails</h1>
+          <h2 data-sr="enter left, move 250px, over 1s, wait 0.3s">un groupe de travail visant à faire progresser les femmes dans l’internet</h2>
           <ul class="list-unstyled text-right">
             <li>identité</li>
             <li>webdesign</li>
@@ -51,8 +50,8 @@ title: Portfolio
     <div class="row">
       <div class="col-xs-12 col-sm-5">
         <div class="info">
-          <h1>Webibli</h1>
-          <h2>Webibli est un site de prêt de livres spécialisés dans le web.</h2>
+          <h1 data-sr="enter right, move 250px, over 1s">Webibli</h1>
+          <h2 data-sr="enter right, move 250px, over 1s, wait 0.3s">Webibli est un site de prêt de livres spécialisés dans le web.</h2>
           <ul class="list-unstyled text-left">
             <li>identité</li>
             <li>webdesign</li>
@@ -64,10 +63,73 @@ title: Portfolio
           </p>
         </div>
       </div>
-      <div class="col-xs-12 col-sm-7 text-center center-block">
-        <%= image_tag('work_webibli.jpg', class: "img-responsive")  %>
+      <div data-sr="enter bottom, move 250px, over 1s, wait 0.3s">
+        <div class="col-xs-12 col-sm-7 text-center center-block">
+          <%= image_tag('work_webibli.jpg', class: "img-responsive")  %>
+        </div>
       </div>
     </div>
   </div>
 </section>
 
+<section class="work">
+  <div class="container">
+    <div class="row">
+      <div data-sr="enter bottom, move 250px, over 1s, wait 0.3s">
+        <div class="col-xs-12 col-sm-7 text-center center-block">
+          <%= image_tag('work_wor.jpg', class: "img-responsive")  %>
+        </div>
+      </div>
+      <div class="col-xs-12 col-sm-5">
+        <div class="info">
+          <h1 data-sr="enter left, move 250px, over 1s">Women on Rails</h1>
+          <h2 data-sr="enter left, move 250px, over 1s, wait 0.3s">un groupe de travail visant à faire progresser les femmes dans l’internet</h2>
+          <ul class="list-unstyled text-right">
+            <li>identité</li>
+            <li>webdesign</li>
+            <li>intégration</li>
+          </ul>
+          <p class="text-right">
+            <a class="link" target="_blank" href="http://womenonrails.com/">Visiter le site</a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="work">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12 col-sm-5">
+        <div class="info">
+          <h1 data-sr="enter right, move 250px, over 1s">Webibli</h1>
+          <h2 data-sr="enter right, move 250px, over 1s, wait 0.3s">Webibli est un site de prêt de livres spécialisés dans le web.</h2>
+          <ul class="list-unstyled text-left">
+            <li>identité</li>
+            <li>webdesign</li>
+            <li>intégration</li>
+            <li>développement</li>
+          </ul>
+          <p class="text-left">
+            <a class="link" href="http://webibli.fr/">Visiter le site</a>
+          </p>
+        </div>
+      </div>
+      <div data-sr="enter bottom, move 250px, over 1s, wait 0.3s">
+        <div class="col-xs-12 col-sm-7 text-center center-block">
+          <%= image_tag('work_webibli.jpg', class: "img-responsive")  %>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <p class="text-center padded">
+    <a href="#welcome">
+      <%= image_tag('arrow.svg') %><br>
+      Retour au contact
+    </a>
+  </p>
+</footer>
