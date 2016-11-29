@@ -1,8 +1,4 @@
 a {
-  &.link {
-    border-top: 2px solid $yellow;
-    line-height: 2;
-  }
   &.arrow {
     display: block;
     &:hover {
@@ -23,6 +19,33 @@ a {
       padding-top: 20px;
     }
   }
+}
+
+
+li.link > a {
+  position: relative;
+  line-height: 2.3;
+}
+
+li.link > a:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px; /* Default: 2px */
+  top: -5px;
+  left: 0;
+  background-color: $yellow;
+  visibility: visible;
+  -webkit-transform: scaleX(1);
+  transform: scaleX(1);
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
+}
+
+li.link > a:hover:before {
+  visibility: hidden;
+  -webkit-transform: scaleX(0);
+  transform: scaleX(0);
 }
 
 
