@@ -4,12 +4,23 @@ a {
     line-height: 2;
   }
   &.arrow {
-    position: absolute;
-    bottom: 5%;
-    left: 50%;
+    display: block;
     &:hover {
       padding-bottom: 10px;
       animation: 2s ease-in-out;
+    }
+    &-intro {
+      position: absolute;
+      bottom: 5%;
+      left: 50%;
+    }
+
+    &-footer {
+      position: absolute;
+      bottom: 15%;
+      left: 50%;
+      background: image-url('arrow.svg') no-repeat center top;
+      padding-top: 20px;
     }
   }
 }
