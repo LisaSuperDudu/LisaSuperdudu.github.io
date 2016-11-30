@@ -1,0 +1,91 @@
+/*=====================================================
+=            Bootstrap 2.3.2 Media Queries            =
+=====================================================*/
+@media only screen and (max-width : 1200px){
+}
+
+@media only screen and (max-width : 979px){
+  .intro h1 {
+    font-size: 45px;
+  }
+
+  .intro h2 {
+    padding: 0 60px 0 80px;
+  }
+
+  .work .task {
+    margin: 100px 0 30px;
+  }
+
+}
+
+@media only screen and (max-width : 767px){
+
+  h2 {
+    margin-top: 10px;
+  }
+
+  .info {
+    padding: 0 60px;
+  }
+  .work .task {
+    margin: 50px 0 20px;
+  }
+
+  .info ul li {
+    text-align: left;
+  }
+
+  .work img {
+    margin: 20px auto 0 auto;
+  }
+
+  #first_work {
+    padding-top: 40px;
+  }
+
+  .work_mobile {
+    margin: 0 auto 0px -10%;
+  }
+
+  .work {
+    margin: 0 auto 60px auto;
+  }
+
+}
+
+@media only screen and (max-width : 480px){
+  .intro h1 {
+    font-size: 30px;
+  }
+
+  .intro h2 {
+    padding: 0 20px 0 40px;
+    font-size: 20px;
+  }
+
+  h1 {
+    font-size: 30px;
+  }
+
+  h2 {
+    font-size: 20px;
+  }
+
+  li {
+    font-size: 14px;
+  }
+
+  a {
+    font-size: 14px;
+  }
+
+  li.link > a {
+    font-size: 14px;
+  }
+
+}
+
+@media only screen and (max-width : 320px){
+
+}

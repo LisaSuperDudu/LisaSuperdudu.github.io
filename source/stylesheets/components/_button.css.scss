@@ -1,9 +1,8 @@
 a {
   &.arrow {
-    display: block;
     &:hover {
-      padding-bottom: 10px;
-      animation: 2s ease-in-out;
+      animation: 1s ease-in-out;
+      transform: translateY(-20%);
     }
     &-intro {
       position: absolute;
@@ -12,11 +11,9 @@ a {
     }
 
     &-footer {
-      position: absolute;
-      bottom: 15%;
-      left: 50%;
       background: image-url('arrow.svg') no-repeat center top;
       padding-top: 20px;
+      display: inline-block;
     }
   }
 }

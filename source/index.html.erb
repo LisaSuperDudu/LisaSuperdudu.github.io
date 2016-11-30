@@ -23,9 +23,11 @@ title: Portfolio
 <section class="work" id="first_work">
   <div class="container">
     <div class="row">
-      <div data-sr="enter bottom, move 250px, over 1s, wait 0.3s">
-        <div class="col-xs-12 col-sm-7 text-center center-block">
-          <%= image_tag('work_wor.jpg', class: "img-responsive")  %>
+      <div class="hidden-xs">
+        <div data-sr="enter bottom, move 250px, over 1s, wait 0.3s">
+          <div class="col-xs-12 col-sm-7 text-center center-block">
+            <%= image_tag('work_wor.jpg', class: "img-responsive")  %>
+          </div>
         </div>
       </div>
       <div class="col-xs-12 col-sm-5">
@@ -40,6 +42,13 @@ title: Portfolio
           <ul class="list-unstyled text-right">
             <li class="link"><a target="_blank" href="http://womenonrails.com/">visiter le site</a></li>
           </ul>
+        </div>
+      </div>
+      <div class="visible-xs">
+        <div data-sr="enter bottom, move 250px, over 1s, wait 0.3s">
+          <div class="col-xs-12 col-sm-7 text-center center-block">
+            <%= image_tag('work_wor.jpg', class: "img-responsive")  %>
+          </div>
         </div>
       </div>
     </div>
@@ -77,8 +86,10 @@ title: Portfolio
   <div class="container">
     <div class="row">
       <div data-sr="enter bottom, move 250px, over 1s, wait 0.3s">
-        <div class="col-xs-12 col-sm-7 text-center center-block">
-          <%= image_tag('work_webibli.jpg', class: "img-responsive")  %>
+        <div class="hidden-xs">
+          <div class="col-xs-12 col-sm-7 text-center center-block">
+            <%= image_tag('work_webibli.jpg', class: "img-responsive")  %>
+          </div>
         </div>
       </div>
       <div class="col-xs-12 col-sm-5">
@@ -96,6 +107,11 @@ title: Portfolio
           </ul>
         </div>
       </div>
+      <div class="visible-xs">
+          <div class="col-xs-12 col-sm-7 text-center center-block">
+            <%= image_tag('work_webibli.jpg', class: "img-responsive")  %>
+          </div>
+        </div>
     </div>
   </div>
 </section>
@@ -125,6 +141,6 @@ title: Portfolio
   </div>
 </section>
 
-<footer>
+<footer class="text-center">
     <a href="#welcome" class="slideDown arrow arrow-footer">Retour au contact</a>
 </footer>
