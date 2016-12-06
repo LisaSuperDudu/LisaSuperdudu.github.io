@@ -23,3 +23,5 @@ gem 'font-awesome-sass'
 
 gem 'rails-assets-scrollReveal.js', '2.3.2', source: 'https://rails-assets.org'
 
+gem "middleman-favicon-maker", "~> 3.7"
+
