@@ -36,8 +36,11 @@ li.link > a:before {
   visibility: visible;
   -webkit-transform: scaleX(1);
   transform: scaleX(1);
+  -webkit-transform-origin: right;
+  transform-origin: right;
   -webkit-transition: all 0.3s ease-in-out 0s;
   transition: all 0.3s ease-in-out 0s;
+
 }
 
 li.link > a:hover:before {
