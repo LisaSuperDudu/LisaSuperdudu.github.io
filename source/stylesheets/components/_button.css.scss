@@ -3,6 +3,8 @@ a {
     &:hover {
       animation: 1s ease-in-out;
       transform: translateY(-20%);
+      -webkit-animation: 1s ease-in-out;
+      -webkit-transform: translateY(-20%);
     }
     &-intro {
       position: absolute;
