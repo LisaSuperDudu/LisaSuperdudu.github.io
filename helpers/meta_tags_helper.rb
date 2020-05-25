@@ -4,7 +4,7 @@ module MetaTagsHelper
   end
 
   def meta_tag_image
-    path = image_path('superdudu.jpg')
+    path = image_path('lisadurand.jpg')
     # remove the ../ occurrences
     path.gsub!(/^(\.\.\/)*/, '')
 
